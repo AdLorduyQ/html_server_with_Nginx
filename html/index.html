@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Server Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .test-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .test-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Server Test Page</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Welcome to the Web Server Test</h1>
+            <p>This page is a simple HTML test to verify that the web server is functioning correctly.</p>
+            <p>The purpose of this test is to confirm that the server is able to serve static HTML content to clients successfully.</p>
+
+            <p>To test the server, you can try clicking the button below. This is a simple action to confirm that dynamic interactions work as expected as well.</p>
+
+            <button class="test-button" onclick="alert('Test successful! The server is working properly.');">
+                Click to Test Server Response
+            </button>
+
+            <h2>About This Page</h2>
+            <p>This page was created using basic HTML and CSS to ensure that your web server is handling simple requests and returning HTML pages correctly.</p>
+            <p>If you see this page in your browser, then the web server is set up correctly and you are able to view HTML content served over HTTP.</p>
+            
+            <p><a href="page2.html">Go to the second page</a></p> 
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Web Server Test</p>
+    </footer>
+</body>
+</html>
+
