@@ -1,7 +1,5 @@
 ## Usage Guide
 
-Here is your message formatted for Markdown:
-
 Create an image from the Dockerfile using the command:
 
 ```bash
